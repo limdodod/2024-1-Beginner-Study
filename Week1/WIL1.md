@@ -45,15 +45,6 @@ Github에 올리기
 
  + git push origin main
 
- 파일의 생명주기
------------------
-<img width="80%" src="https://github.com/limdodod/2024-1-Beginner-Study-/assets/162318258/8974bdf2-d257-4966-a792-ffef9b804940"
-
-
-Git/Github 흐름 정리하기
-------------------------
-<img width="80%" src="C:\Users\rosal\OneDrive\사진\스크린샷\스크린샷 2024-03-20 225548.png"
-
 
 <https://github.com/limdodod/limdodod>
 
