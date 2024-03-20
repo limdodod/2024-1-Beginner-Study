@@ -47,11 +47,11 @@ Github에 올리기
 
  파일의 생명주기
 -----------------
-<img width="80%" src="https://github.com/limdodod/2024-1-Beginner-Study-/assets/162318258/587dcce8-6b17-4d46-9e0e-6eaddfbeae1a"
+<img width="80%" src="C:\Users\rosal\OneDrive\바탕 화면\스크린샷 2024-03-20 224742.png"
 
 Git/Github 흐름 정리하기
 ------------------------
-<img width="80%" src="https://github.com/limdodod/2024-1-Beginner-Study-/assets/162318258/813837a3-f372-40a7-b689-24c8ad067cfe"
+<img width="80%" src="C:\Users\rosal\OneDrive\사진\스크린샷\스크린샷 2024-03-20 225548.png"
 
 
 <https://github.com/limdodod/limdodod>
