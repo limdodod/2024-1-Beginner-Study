@@ -53,4 +53,5 @@ GitHub의 Merge
 3. Rebase and Merge
     : 커밋의 base 재설정 -> 모두 새로운 커밋으로 변경
 
-<https://github.com/limdodod/2024-1-Beginner-Study/pull/3>
+
+<https://github.com/limdodod/2024-1-Beginner-Study/pull>
