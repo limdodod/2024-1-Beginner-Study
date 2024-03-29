@@ -1,50 +1,55 @@
 Git와 Github
 ============
 
- Git으로 파일 관리하기
+ GitHub의 Fork/Star
 ---------------------
 
- 1. 디렉토리에 Git 저장소 만들기
+ 1. Fork
 
-   > git init
+    : 다른 사용자의 Repository를 자신의 계정으로 복사하여 독립적으로 수정& 관리
 
- 2. Git으로 관리할 대상 등록하기
+ 2. Star
 
-   > git add
+    : 관심있는 Repository나 프로젝트에 star을 달아 관리
 
-   + 한번에 모든 파일 등록
+   GitHub의 Issue
+---------------------
+    : Ropository에서 작업 계획, 토론 및 추적을 위해 활용
 
-    > git add .
+   
+  GitHub의 Branch
+---------------------
+    : 기존 브랜치에서 분기되어 생성되는 별도의 작업 공간
+    : fork와 달리 같은 Repository에 생성
 
-   + 하나씩 등록
++ Branch Naming Convention
 
-    > git add<파일명>
+    > "type/<issue 번호>-<간략한 설명>"
 
-   + umstage로 되돌리기
+  1. Branch 확인하기
+      - 현재 브랜치 확인: $git branch
+      - 모든 브랜치 확인: $git branch -a
 
-    > git rm --cached <file>
+  2. Branch  생성/삭제
+      - 브랜치 생성하기: $git branch "<브랜치 이름>"
+      - 브랜치 삭제하기: $git branch -D "<브랜치 이름>"
+  
+  3. Branch 이동하기
+      - 브랜치 이동: $git checkout "<브랜치 이름>"
+      - 브랜치 생성 후 이동: $git checkout -b "<브랜치 이름>"
+GitHub의 PUll
+---------------------
+    : 분기된 Branch를 다시 병합하기 위한 절차
+    : 새로운 변경 제안/ 병합 시 발생하는 충돌 해결
+    : Merge에 앞서 코드 리뷰
 
- 3. 파일 수정 후 로컬 저장소로 옮기기
-
-   > git commit
-
-   + Git에 커밋하기
-
-    > git commit -m"<commit message>"
-
- 4. git 관리 그만하기
-
-   > rm -r .git
-
-
-Github에 올리기
------------------
- + git add <파일명>
-
- + git commit -m"commit message"
-
- + git push origin
-
-
+GitHub의 Merge
+---------------------
+1. Merge Commit
+    : 두 브랜치를 공통 부모로 하는 새로운 commit 만듦
+2. Squash and Merge
+    : 하나의 커밋으로 main 브랜치로 병합
+3. Rebase and Merge
+    : 커밋의 base 재설정 -> 모두 새로운 커밋으로 변경
 
 <https://github.com/limdodod/2024-1-Beginner-Study/pull/3>
