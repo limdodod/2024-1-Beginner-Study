@@ -37,6 +37,7 @@ Git와 Github
   3. Branch 이동하기
       - 브랜치 이동: $git checkout "<브랜치 이름>"
       - 브랜치 생성 후 이동: $git checkout -b "<브랜치 이름>"
+      
 GitHub의 PUll
 ---------------------
     : 분기된 Branch를 다시 병합하기 위한 절차
