@@ -54,4 +54,4 @@ GitHub의 Merge
     : 커밋의 base 재설정 -> 모두 새로운 커밋으로 변경
 
 
-<https://github.com/limdodod/2024-1-Beginner-Study/pull>
+<https://github.com/limdodod/2024-1-Beginner-Study/pull/3>
