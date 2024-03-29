@@ -43,7 +43,7 @@ Github에 올리기
 
  + git commit -m"commit message"
 
- + git push origin main
+ + git push origin
 
 
 
