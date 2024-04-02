@@ -50,10 +50,10 @@ Git와 Github
 
  revert
 ---------------------
- : 커밋을 제거하지 않고 되돌림
- : 되돌리기 위한 새로운 커밋 생성
+     : 커밋을 제거하지 않고 되돌림
+     : 되돌리기 위한 새로운 커밋 생성
 
-   1. revert --no-edit
-    - 편집기 진입 없이 바로 revert 가능
-      $git revert --no-edit "<commit id>"
-    - 직접 commit하지 않고 revert 내용을 staging area에 올림
+     > revert --no-edit
+       - 편집기 진입 없이 바로 revert 가능
+         $git revert --no-edit "<commit id>"
+       - 직접 commit하지 않고 revert 내용을 staging area에 올림
